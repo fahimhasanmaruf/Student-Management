@@ -269,7 +269,7 @@ void stdt(char* username)
             room_check();
 
             printf("Press 0 to back\n");
-            printf("Press 1 to go to main menu\n");
+            printf("Press 1 to go to Log out\n");
             scanf("%d", &z);
             if (z == 0)
             {
@@ -301,7 +301,7 @@ void stdt(char* username)
             printf("8.     3       |Physics I (Mechanics, Waves, Heat and Thermodynamics)\n");
 
             printf("Press 0 to back\n");
-            printf("Press 1 to go to LOg out\n");
+            printf("Press 1 to go to Log out\n");
             scanf("%d", &z);
             if (z == 0)
             {
@@ -559,7 +559,7 @@ void class_check()
 
     // Ask user for input
     printf("Enter Day (1-5)\n");
-    printf("1.Sat  2.Sun  3.Mon  4.Tues  5.Wed\n");
+    printf("1.Saturday  2.Sunday  3.Monday  4.Tuesday  5.Wednesday\n");
     scanf("%d", &d);
     printf("Enter your section (1AM/1BM/1CM): ");
     scanf("%s", section);
